@@ -1,17 +1,33 @@
-Sublime Text 2 Snippits
+JSTL Snippits
 =======================
 
-Hello Submit Text 2 users! This is a repro for sharing snippets for team.
+### <c:out>
+
+*Tab Trigger:* c-out
+
+*Snippet File:* `c-out.sublime-snippet`
+
+*Generates:*
+
+    <c:out value="\$\{$1\}" />
 
 
-JSTL snippets:
---------------
+### <c:set>
+
+*Tab Trigger:* c-set
+
+*Snippet File:* `c-set.sublime-snippet`
+
+*Generates:*
+
+    <c:set var="$1" value="\$\{$2\}" />
+
 
 ### <c:choose>
 
 *Tab Trigger:* c-choose
 
-*Snippet File:* `/sandbox/sublime-snippets/c-choose.sublime-snippet`
+*Snippet File:* `c-choose.sublime-snippet`
 
 *Generates:*
 
@@ -25,27 +41,66 @@ JSTL snippets:
     </c:choose>
 
 
+### <c:when>
+
+*Tab Trigger:* c-when
+
+*Snippet File:* `c-when.sublime-snippet`
+
+*Generates:*
+
+    <c:when test="$1">
+        $2
+    </c:when>
+
+
+### <c:otherwise>
+
+*Tab Trigger:* c-otherwise
+
+*Snippet File:* `c-otherwise.sublime-snippet`
+
+*Generates:*
+
+    <c:otherwise>
+        $1
+    </c:otherwise>
+
+
 ### <c:if>
 
 *Tab Trigger:* c-if
 
-*Snippet File:* `/sandbox/sublime-snippets/c-if.sublime-snippet`
+*Snippet File:* `c-if.sublime-snippet`
 
 *Generates:*
 
     <c:if test="$1">
         $2
     </c:if>
+
+
+### <c:for>
+
+*Tab Trigger:* c-for
+
+*Snippet File:* `c-for.sublime-snippet`
+
+*Generates:*
+
+    <c:forEach var="$1" items="\$\{$2\}">
+        $3
+    </c:forEach>
 
 
 ### <c:forEach>
 
 *Tab Trigger:* c-foreach
 
-*Snippet File:* `/sandbox/sublime-snippets/c-foreach.sublime-snippet`
+*Snippet File:* `c-foreach.sublime-snippet`
 
 *Generates:*
 
-    <c:if test="$1">
-        $2
-    </c:if>
+    <c:forEach var="$1" items="\$\{$2\}" varStatus="${3:status}" step="$4" begin="$5">
+        $6
+    </c:forEach>
