@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<c:forEach var="$1" items="\$\{$2\}" varStatus="${3:status}" step="$4" begin="$5">
+    $6
+</c:forEach>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>c-foreach</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
