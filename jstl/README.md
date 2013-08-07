@@ -1,7 +1,7 @@
 JSTL Snippits
 =======================
 
-### <c:out>
+### c:out
 
 *Tab Trigger:* c-out
 
@@ -12,7 +12,7 @@ JSTL Snippits
     <c:out value="\$\{$1\}" />
 
 
-### <c:set>
+### c:set
 
 *Tab Trigger:* c-set
 
@@ -23,7 +23,7 @@ JSTL Snippits
     <c:set var="$1" value="\$\{$2\}" />
 
 
-### <c:choose>
+### c:choose
 
 *Tab Trigger:* c-choose
 
@@ -41,7 +41,7 @@ JSTL Snippits
     </c:choose>
 
 
-### <c:when>
+### c:when
 
 *Tab Trigger:* c-when
 
@@ -54,7 +54,7 @@ JSTL Snippits
     </c:when>
 
 
-### <c:otherwise>
+### c:otherwise
 
 *Tab Trigger:* c-otherwise
 
@@ -67,7 +67,7 @@ JSTL Snippits
     </c:otherwise>
 
 
-### <c:if>
+### c:if
 
 *Tab Trigger:* c-if
 
@@ -80,7 +80,7 @@ JSTL Snippits
     </c:if>
 
 
-### <c:for>
+### c:for
 
 *Tab Trigger:* c-for
 
@@ -93,7 +93,7 @@ JSTL Snippits
     </c:forEach>
 
 
-### <c:forEach>
+### c:forEach
 
 *Tab Trigger:* c-foreach
 
