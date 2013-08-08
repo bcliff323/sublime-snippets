@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-for(var = i, len = $1; i < len; i++) {
-	$2
+for(var i = $1, len = $2; i < len; i++) {
+	$3
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
